@@ -12,7 +12,7 @@
         <downloads>
             <downloadurl type="full" format="zip">https://github.com/TLWebdesignNL/Auto-Delete-Files-Task-Scheduler-Plugin/archive/refs/tags/V1.0.0.zip</downloadurl>
         </downloads>
-        <sha256>38d2a0394345a5f0bdc0b00f2365250c9c93575d981bf469a421cbc0a7df8d28</sha256>
+        <sha256>3ce50a86aca826c64b988934105268683d9fc103d47ca0a30f1b1a9d57c9584c</sha256>
         <tags>
             <tag>stable</tag>
         </tags>
