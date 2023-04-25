@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="4.1" type="plugin" group="task" method="upgrade">
+    <name>plg_task_autodeletefiles</name>
+    <author>Tom van der Laan - TLWebdesign</author>
+    <creationDate>2023-04-25</creationDate>
+    <copyright>GNU General Public License</copyright>
+    <license>GNU General Public License version 3, or later</license>
+    <authorEmail>info@tlwebdesign.nl</authorEmail>
+    <authorUrl>https://www.tlwebdesign.nl</authorUrl>
+    <version>1.1.0</version>
+    <description>PLG_TASK_AUTODELETEFILES_DESCRIPTION</description>
+    <namespace path="src">Joomla\Plugin\Task\Autodeletefiles</namespace>
+    <files>
+        <folder plugin="autodeletefiles">services</folder>
+        <folder>src</folder>
+        <folder>forms</folder>
+    </files>
+    <languages>
+        <language tag="en-GB">language/en-GB/plg_task_autodeletefiles.ini</language>
+        <language tag="en-GB">language/en-GB/plg_task_autodeletefiles.sys.ini</language>
+    </languages>
+    <updateservers>
+        <server type="extension" priority="1" name="Auto Delete Files Plugin Updates">https://raw.githubusercontent.com/TLWebdesignNL/Auto-Delete-Files-Task-Scheduler-Plugin/main/updates.xml</server>
+    </updateservers>
+</extension>

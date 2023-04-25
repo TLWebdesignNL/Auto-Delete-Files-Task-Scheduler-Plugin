@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+    <fields name="params">
+        <fieldset name="task_params">
+            <field name="folder_path" type="text" label="PLG_TASK_AUTODELETEFILES_FIELD_FOLDER_PATH_LABEL" description="PLG_TASK_AUTODELETEFILES_FIELD_FOLDER_PATH_DESC" default="" />
+            <field name="older_than" type="number" label="PLG_TASK_AUTODELETEFILES_FIELD_OLDER_THAN_LABEL" description="PLG_TASK_AUTODELETEFILES_FIELD_OLDER_THAN_DESC" default="30" min="1" max="9999" step="1" />
+            <field name="time_unit" type="list" label="PLG_TASK_AUTODELETEFILES_FIELD_TIME_UNIT_LABEL" description="PLG_TASK_AUTODELETEFILES_FIELD_TIME_UNIT_DESC" default="days">
+                <option value="minutes">PLG_TASK_AUTODELETEFILES_FIELD_MINUTES</option>
+                <option value="hours">PLG_TASK_AUTODELETEFILES_FIELD_HOURS</option>
+                <option value="days">PLG_TASK_AUTODELETEFILES_FIELD_DAYS</option>
+            </field>
+        </fieldset>
+    </fields>
+</form>
