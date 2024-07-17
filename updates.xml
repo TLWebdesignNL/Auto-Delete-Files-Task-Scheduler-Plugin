@@ -19,7 +19,7 @@
         <maintainer>Tom van der Laan - TLWebdesign</maintainer>
         <maintainerurl>https://example.com</maintainerurl>
         <section>Plugin</section>
-        <targetplatform name="joomla" version="4.1"/>
+        <targetplatform name="joomla" version="4.x|5"/>
     </update>
 
 </updates>
