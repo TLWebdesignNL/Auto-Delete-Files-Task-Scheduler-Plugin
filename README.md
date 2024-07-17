@@ -1,5 +1,5 @@
 # Auto Delete Files Task Scheduler Plugin
-Joomla 4.1 Task Plugin to auto delete files older than a certain timeframe.
+Joomla 4.1 or newer Task Plugin to auto delete files older than a certain timeframe.
 
 You're able set a folder from within your joomla root folder.
 Then specify a timeframe in "minutes, hours or days".
